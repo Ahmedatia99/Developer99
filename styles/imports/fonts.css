@@ -1,0 +1,18 @@
+/* Raleway (Google Fonts) */
+@font-face {
+  font-family: "Raleway";
+  src: url("../../public/fonts/raleway/Raleway-Regular.ttf");
+  font-weight: 100 300;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../../public/fonts/raleway/Raleway-Medium.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../../public/fonts/raleway/Raleway-Black.ttf");
+  font-weight: bold;
+}

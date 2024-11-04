@@ -1,0 +1,40 @@
+@import "styles/util/mixins";
+
+.wrapper {
+    @include breakpoints(mobile){
+        top: 50% !important;
+        transform: translate(0, 15%) scale(1.1) !important;
+        width: 100%;
+    }
+    @include breakpoints(tablet){
+        top: 50%;
+        transform: translate(0,-50%) scale(1.1) !important;
+    
+    }
+    @include breakpoints(xlarge){
+        transform: translate(15%,-50%) !important;
+    }
+
+}
+
+.strategy {
+    width: 999px;
+    height: 999px;
+    position: relative;
+    transform: rotateY(180deg);
+    svg {
+        transform: scale(1.9) !important;
+    }
+    @include breakpoints(mobile){
+        width: 400px;
+        height: 400px;
+        text-align: center;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    @include breakpoints(tablet){
+        width: 500px;
+        height: 500px;
+        transform: rotateY(180deg) scale(1.2);
+    }
+}

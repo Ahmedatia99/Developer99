@@ -1,0 +1,11 @@
+TODOS
+[*] responsive
+[] modal info each answer
+[*] previous 
+[*] start backend - authentication
+[*] connect backend to the frontend
+
+[] parse the questions and answers
+
+
+[] layout screens, forget your password
